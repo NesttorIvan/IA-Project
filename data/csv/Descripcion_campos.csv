@@ -1,0 +1,19 @@
+Orden,Campo,Tipo,Descripcion
+1,COD_EST,Texto(6),0 Código de la estación de meteorológica
+2,FECHA,Fecha(8),1 Fecha de los datos de este registro
+3,T_MAX,Simple(4),2 Temperatura máxima (ºC)
+4,T_MED,Simple(4),3 Temperatura media (ºC)
+5,T_MIN,Simple(4),4 Temperatura mínima (ºC)
+6,H_R_MAX,Simple(4),5 Humedad relativa máxima (%)
+7,H_R_MED,Simple(4),6 Humedad relativa media (%)
+8,H_R_MIN,Simple(4),7 Humedad relativa mínima (%)
+9,RADIACION,Simple(4),8 Radicación media (w*h/m2)
+10,LLUVIA,Simple(4),9 Lluvia total (mm)
+11,V_MAX,Simple(4),14 Velocidad de viento máxima (Km/h)
+12,V_MED,Simple(4),15 Velocidad de viento media (Km/h)
+13,V_MIN,Simple(4),16 Velocidad de viento mínima (Km/h)
+14,CV1,Largo(4),17 Minutos con dirección de viento en el primer cuadrante
+15,CV2,Largo(4),18 Minutos con dirección de viento en el segundo cuadrante
+16,CV3,Largo(4),19 Minutos con dirección de viento en el tercer cuadrante
+17,CV4,Largo(4),20 Minutos con dirección de viento en el cuarto cuadrante
+18,DIRECCION,Entero(2),21 Dirección dominante del viento
